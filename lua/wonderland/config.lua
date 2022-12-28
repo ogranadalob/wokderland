@@ -1,4 +1,3 @@
-
 -- vim.opt.guicursor = '>'
 
 vim.opt.number = true
@@ -28,11 +27,11 @@ vim.opt.updatetime = 50
 vim.opt.colorcolumn = "80"
 
 vim.opt.wildmode = "full"
+vim.o.splitbelow = true
+vim.o.splitright = true
 
 -- Dracula Colorscheme
 vim.cmd('colorscheme dracula')
 
 -- Rose Pine Colorscheme
 vim.cmd('colorscheme rose-pine')
-
-
