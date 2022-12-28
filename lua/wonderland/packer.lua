@@ -100,6 +100,15 @@ return require('packer').startup(function(use)
     end,
   })
 
+  -- Tab line manager
+  --
+  use({
+    'crispgm/nvim-tabline',
+    config = function()
+      require('tabline').setup({})
+    end,
+  })
+
   -- Session management
   --
   use {
@@ -127,8 +136,8 @@ return require('packer').startup(function(use)
   })
 
   -- use({'APZelos/blamer.nvim', config = function()
-    -- vim.g.blamer_enabled = 1
-    -- vim.g.blamer_delay = 500
+  -- vim.g.blamer_enabled = 1
+  -- vim.g.blamer_delay = 500
   -- end})
 
 
