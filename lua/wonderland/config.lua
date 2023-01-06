@@ -30,8 +30,21 @@ vim.opt.wildmode = "full"
 vim.o.splitbelow = true
 vim.o.splitright = true
 
--- Dracula Colorscheme
-vim.cmd('colorscheme dracula')
+-- Colorscheme
+
+-- Nightfox color scheme
+-- * Variants
+--   - Nightfox
+--   - Dayfox
+--   - Dawnfox
+--   - Duskfox
+--   - Nordfox
+--   - Terafox
+--   - Carbonfox
+
+vim.cmd('colorscheme nightfox')
+vim.cmd('colorscheme nordfox')
+vim.cmd('colorscheme terafox')
 
 -- Rose Pine Colorscheme
-vim.cmd('colorscheme rose-pine')
+-- vim.cmd('colorscheme rose-pine')
