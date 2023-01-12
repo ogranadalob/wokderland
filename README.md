@@ -12,4 +12,6 @@ Paste next code in your terminal:
 
 Then open neovim and execute the command `PackerSync`.
 
+### Note
+Is strongly suggested to install fira code from [nerd fonts](https://www.nerdfonts.com/font-downloads).
 
